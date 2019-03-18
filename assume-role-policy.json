@@ -15,6 +15,14 @@
         "Service": "cloudformation.amazonaws.com"
       },
       "Action": "sts:AssumeRole"
-    }
+    },
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::620154271401:user/harry-admin",
+        "AWS": "arn:aws:sts::620154271401:assumed-role/eksworkshop-admin/i-0d0b85ef9c1bc73da"
+      },
+      "Action": "sts:AssumeRole"
+    }    
   ]
 }
