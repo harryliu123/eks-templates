@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'Amazon EKS Sample VPC'
+Description: 'VPC, Subnets, InternetGateway has Created'
 
 Parameters:
 
