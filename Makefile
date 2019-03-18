@@ -8,16 +8,16 @@ EKS_YAML_URL ?= https://s3-us-west-2.amazonaws.com/pahud-cfn-us-west-2/eks-templ
 CLUSTER_YAML ?= https://s3-us-west-2.amazonaws.com/pahud-cfn-us-west-2/eks-templates/cloudformation/cluster.yaml
 CLUSTER_STACK_NAME ?= eksdemo
 CLUSTER_NAME ?= $(CLUSTER_STACK_NAME)
-EKS_ADMIN_ROLE ?= arn:aws:iam::903779448426:role/AmazonEKSAdminRole
-REGION ?= ap-northeast-1
-SSH_KEY_NAME ?= 'aws-pahud'
-VPC_ID ?= vpc-e549a281
-SUBNET1 ?= subnet-05b643f57a6997deb
-SUBNET2 ?= subnet-09e79eb1dec82b7e2
-SUBNET3 ?= subnet-0c365d97cbc75ceec
+EKS_ADMIN_ROLE ?= arn:aws:iam::620154271401:role/AmazonEKSAdminRole
+REGION ?= us-east-2
+SSH_KEY_NAME ?= eksworkshop
+VPC_ID ?= vpc-09de8f1ee191ebcd6
+SUBNET1 ?= subnet-0b813a12742980ef3
+SUBNET2 ?= subnet-0efda4e0f142e2ef4
+SUBNET3 ?= subnet-03c7521455b3e029b
 OnDemandBaseCapacity ?= 1
 NodeAutoScalingGroupMinSize ?= 0
-NodeAutoScalingGroupDesiredSize ?= 4
+NodeAutoScalingGroupDesiredSize ?= 3
 NodeAutoScalingGroupMaxSize ?= 5
 
 
