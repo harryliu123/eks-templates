@@ -21,7 +21,6 @@
       "Principal": {
         "AWS": "arn:aws:iam::620154271401:user/harry-admin",
         "AWS": "arn:aws:sts::620154271401:assumed-role/eksworkshop-admin/i-0d0b85ef9c1bc73da"
-        "AWS": "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess"
       },
       "Action": "sts:AssumeRole"
     }    
