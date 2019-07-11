@@ -15,10 +15,10 @@ VPC_ID ?= vpc-09de8f1ee191ebcd6
 SUBNET1 ?= subnet-0b813a12742980ef3
 SUBNET2 ?= subnet-0efda4e0f142e2ef4
 SUBNET3 ?= subnet-03c7521455b3e029b
-OnDemandBaseCapacity ?= 1
+OnDemandBaseCapacity ?= 3
 NodeAutoScalingGroupMinSize ?= 0
-NodeAutoScalingGroupDesiredSize ?= 3
-NodeAutoScalingGroupMaxSize ?= 5
+NodeAutoScalingGroupDesiredSize ?= 4
+NodeAutoScalingGroupMaxSize ?= 6
 
 
 .PHONY: sam-dev-package
